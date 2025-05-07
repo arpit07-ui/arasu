@@ -13,7 +13,7 @@ export const FormContainer: React.FC<FormContainerProps> = ({ children }) => (
 
 export const SidePanel = () => {
   const [isPdfExpanded, setIsPdfExpanded] = useState(false);
-  const pdfUrl = "/public/FORM10C.pdf";
+  const pdfUrl = "/FORM10C.pdf";
 
   const handlePdfClick = () => {
     setIsPdfExpanded(true);
